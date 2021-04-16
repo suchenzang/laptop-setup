@@ -26,6 +26,11 @@
   export PS1='\[\e[0;32m\]\u\[\e[m\]\[\e[1;32m\]>\[\e[m\] '
   alias ls='ls -G'
   ```
+  * Or `~/.zshrc`:
+  ```
+  PROMPT='%(?.%F{46}√.%F{red}?%?)%f %B%F{14}%1~%f%b %# '
+  alias ls='ls -G'
+  ```
 
 * Install f.lux
 
